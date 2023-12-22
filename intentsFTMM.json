@@ -1,0 +1,432 @@
+{"intents": [
+        {"tag": "Pengenalan",
+         "patterns": ["Halo", "Hai", "selamat pagi", "selamat siang", "selamat malam","selamat sore","assalamualaikum","halo selamat pagi","halo selamat siang","halo selamat sore","halo selamat malam","perkenalkan nama saya saya ingin menanyakan sesuatu","halo apa kabar","siang","sore","malam","pagi","bagaimana kabar anda","saya ingin bertanya sesuatu","ada yang ingin saya tanyakan","siapa anda"],
+         "responses": ["Aku adalah FTMMQA yang bertugas untuk menjawab pertanyaanmu tentang Fakultas FTMM kami. Salam kenal ya!"],
+         "context_set": ""
+        },
+        {"tag": "Pengenalan FTMM",
+         "patterns": ["FTMM adalah","Halo FTMM itu apa?", "Kapan FTMM didirikan?", "Ada berapa program studi di FTMM?", "Apa saja program studi yang ada di FTMM?", "Sejak tahun berapa FTMM didirikan?"],
+         "responses": ["Fakultas Teknologi Maju dan Multidisiplin (FTMM), yang semula bernama Sekolah Teknologi Maju dan Multidisiplin, didirikan pada November 2019 dengan 5 program studi S1, antara lain: Teknik Robotika dan Kecerdasan Buatan, Teknologi Sains Data, Rekayasa Nanoteknologi, Teknik Industri, dan Teknik Elektro."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Lokasi FTMM",
+         "patterns": ["Halo FTMM ada dimana?", "FTMM di kampus mana?", "Lokasi FTMM ada di mana?", "Apa itu GKB di FTMM?", "Di GKB FTMM ada apa saja?"],
+         "responses": ["Fakultas Teknologi Maju dan Multidisiplin berlokasi di Gedung Kuliah Bersama (GKB) UNAIR Kampus C.\nLokasi : Gedung Kuliah Bersama, Jl. Dr. Ir. H. Soekarno, Mulyorejo, Kec. Mulyorejo, Surabaya, Jawa Timur 60115.\nDi gedung ini, FTMM menempati lantai Ground sebagai laboratorium pendidikan, Lantai 1 sebagai ruang administrasi akademik dan kemahasiswaan, ORMAWA, serta laboratorium pendidikan. Lantai 6 sebagai ruang kelas, lantai 8 sebagai ruang dosen dan laboratorium komputer High Grade & Mid Grade. Serta lantai 10 sebagai ruang pimpinan FTMM, administrasi sarana prasarana, sdm dan keuangan, serta Research Centre Nanotechnology."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Informasi Kontak",
+         "patterns": ["Apakah FTMM mempunyai akun media sosial?", "Dimana saya bisa menghubungi FTMM?", "Bagaimana saya bisa melihat informasi terkait FTMM?", "Apakah FTMM memiliki chanel Youtube?"],
+         "responses": ["Media sosial Fakultas Teknologi Maju dan Multidisiplin\nInstagram = @ftmmunair\nTwitter = @FTMMUNAIR\nYoutube = @ftmmunair\nWhatsApp = +62 881-0360-00830\nEmail = info@ftmm.unair.ac.id\nWebsite = ftmm.unair.ac.id."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Sejarah FTMM",
+         "patterns": ["Berapa jumlah mahasiswa FTMM?", "Kenapa ada FTMM?", "FTMM mencakup di bidang apa saja di Universitas Airlangga?", "Tujuan didirikan FTMM?", "FTMM menghadirkan pilar baru dibidang apa?"],
+         "responses": ["FTMM hadir dan melengkapi 3 pilar utama Universitas Airlangga (social science, life science, dan health science) dengan pilar baru di bidang keteknikan (engineering). Mahasiswa angkatan pertama FTMM berjumlah kurang lebih 400 mahasiswa. Kami akan terus berusaha memberikan yang terbaik dalam fasilitas pendidikan, dan membuka kesempatan kepada mahasiswa kami untuk dapat berkontribusi pada kemajuan teknologi."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Prodi FTMM",
+         "patterns": ["Apakah ada jurusan yang hanya ada satu di Indonesia?", "Program studi apa yang langka?", "Apakah di FTMM ada jurusan yang langka dan hanya ada satu di indonesia?"],
+         "responses": ["Di Fakultas Teknologi Maju dan Multidisiplin, Universitas Airlangga. Terdapat 2 program studi yang hanya ada satu di Indonesia yaitu S1 Teknik Robotika dan Kecerdasan Buatan serta S1 Rekayasa Nanoteknologi."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Kepimpinan FTMM",
+         "patterns": ["Siapa pimpinan FTMM saat ini?", "FTMM di pimpin oleh?", "Siapa Dekan FTMM?"],
+         "responses": ["Saat ini Fakultas Teknologi Maju dan Multidisiplin dipimpin oleh\nDekan = Prof. Dr. Dwi Setyawan, S.Si., M.Si., Apt\nWakil Dekan I = Dr. Nimatuzahroh, Dra.\nWakil Dekan II = Dr. Imron Mawardi, S.P., M.Si\nWakil Dekan III = Prof. Dr. Retna Apsari, M.Si\nKetua Departemen = Dr. Prihartini Widiyanti, drg., M.Kes, S. Bio, CCD."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Kontribusi FTMM",
+         "patterns": ["Karya apa saja yang sudah dihasilkan FTMM?", "FTMM sudah berkontribusi apa saja?", "Apa itu ISYANA?"],
+         "responses": ["Fakultas Teknologi Maju dan Multidisiplin telah berkontribusi dengan menghasilkan beberapa karya, seperti berikut =\na. ARTA-1 = merupakan robot yang digunakan sebagai asisten medis untuk pasien yang terpapar COVID-19.\nb. ISYANA = merupakan mobile robot yang mempunyai fungsi menyemprotkan carian desinfektan pada area indor maupun outdoor.\nc. ARSENIK = Merupakan teknologi smart farming yang memanfaatkan pembangkit listrik tenaga surya (PLTS) berkapasitas 900 Wp.\nd. AirFeel = merupakan sistem berbasis internet of things (IoT) untuk mengukur parameter cuaca dan polutan gas di udara dengan aplikasi web berbasis HTML."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Gelar Sarjana FTMM",
+         "patterns": ["Lulusan FTMM mendapatkan gelar apa?", "Lulusan FTMM apakah sarjana teknik?", "Gelar apa untuk lulusan teknik robotika dan kecerdasan buatan?"],
+         "responses": ["Fakultas Teknologi Maju dan Multidisipin, Universitas Airlangga. menetapkan bahwa mahasiswa dari ke-5 program studinya pada akhir masa studinya memperoleh gelar Sarjana Teknik (S.T.)."],
+         "context_set": ""
+        },
+
+
+
+        {"tag": "Identitas Bendera FTMM",
+         "patterns": ["Bendera FTMM berwarna apa?"],
+         "responses": ["Bendera FTMM memiliki warna biru  prusia  (prussian  blue)  melambangkan  FTMM  sebagai  pilar  teknologi  di Universitas Airlangga, warna perak (silver) memiliki makna kemajuan dan harapan sesuai dengan filosofi didirikannya FTMM sebagai bentuk kontribusi untuk Indonesia yang lebih maju melalui penguasaan teknologi, warna  pompadour   melambangkan   harmonisasi   dan   kolaborasi   multidisiplin   ilmu sebagaimana visi pendirian FTMM yang turut berperan aktif dalam pengembangan, penerapan dan kolaborasi IPTEK yang maju. Tiga buah warna yang berjajar melambangkan FTMM yang berangkat dari 3 pilar yang telah ada (health science, life science dan social science), teknologi hadir sebagai katalis kolaborasi antar pilar sehingga membawa keseimbangan bagi Universitas Airlangga sebagai institusi yang komprehensif."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Identitas Logo FTMM",
+         "patterns": ["Logo FTMM berwarna apa?"],
+         "responses": ["Logo FTMM memiliki bentuk huruf tanpa sudut melambangkan FTMM sebagai Fakultas yang dinamis dan mampu beradaptasi terhadap berbagai tantangan. Huruf yang saling bersambung melambangkan kontinuitas FTMM dalam mengembangkan IPTEK. Warna biru dan kuning merupakan warna dasar Universitas Airlangga tempat FTMM bernaung. Gradasi warna pada logo melambangkan FTMM yang kolaboratif dengan berbagai disiplin ilmu yang ada."],
+         "context_set": ""
+        },
+
+
+            {"tag": "Visi FTMM",
+         "patterns": ["Apa visi dari FTMM?"],
+         "responses": ["Visi dari FTMM adalah menjadi fakultas teknik unggul dan bermartabat yang berperan aktif dalam pengembangan, penerapan dan kolaborasi ilmu pengetahuan dan teknik yang maju, serta berintegritas tinggi, berbudaya, berasaskan Pancasila dan berdasarkan moral agama untuk menyelesaikan persoalan bangsa."],
+         "context_set": ""
+        },
+
+
+            {"tag": "Misi FTMM",
+         "patterns": ["Apa Misi dari FTMM?"],
+         "responses": ["Misi dari FTMM adalah Menyelenggarakan pendidikan sarjana yang berwawasan internasional untuk menghasilkan lulusan bermoral agama dan mumpuni di bidang ilmu pengetahuan dan teknik yang berdaya guna dan mengabdi untuk kepentingan bangsa, menumbuhkan dan mengembangkan kreativitas, melaksanakan penelitian dan pengabdian kepada masyarakat yang berlandaskan budaya bangsa, mengembangkan kerjasama yang luas dengan lembaga di dalam dan di luar negeri."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Visi RN",
+         "patterns": ["Apa Visi dari program studi Rekayasa Nanoteknologi?"],
+         "responses": ["Visi dari Program Studi Rekayasa Nanoteknologi adalah menjadi program studi yang unggul dan terdepan dalam menyiapkan sumber daya manusia sekaligus pengembangan ilmu di bidang nanoteknologi medis, nanoteknologi energi dan lingkungan, industri nanoteknologi dan komputasi nanoteknologi untuk kepentingan masyarakat luas."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Misi RN",
+         "patterns": ["Apa Misi dari program studi Rekayasa Nanoteknologi?"],
+         "responses": ["Misi dari Program Studi Rekayasa Nanoteknologi adalah menyelenggarakan pendidikan Sarjana Program Rekayasa Nanoteknologi secara profesional dan berkualitas dengan berdasarkan perkembangan ilmu pengetahuan serta kebutuhan pasar secara global, mengembangkan ilmu pengetahuan melalui penelitian laboratorium di bidang nanoteknologi, melaksanakan pengabdian masyarakat sebagai salah satu bentuk tanggung jawab sosial demi kesejahteraan masyarakat luas dan melakukan dan meningkatkan kerjasama pendidikan dan penelitian dengan berbagai institusi baik di dalam maupun luar negeri dengan mempertimbangkan aspek kesetaraan dan keberlanjutan. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Visi TE",
+         "patterns": ["Apa Visi dari program studi Teknik Elektro?"],
+         "responses": ["Visi dari Program Studi Teknik Elektro adalah menjadi program studi sarjana Teknik Elektro yang inovatif, unggul, dan terkemuka tingkat nasional dan internasional serta berperan dalam aktif dalam usaha mensejahterakan bangsa berdasar moral agama."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Misi TE",
+         "patterns": ["Apa Misi dari program studi Teknik Elektro?"],
+         "responses": ["Misi dari Program Studi Teknik Elektro yaitu mengembangkan pendidikan dan penelitian di bidang Teknik Elektro sehingga menghasilkan lulusan yang bereputasi internasional serta berkontribusi nyata untuk menerapkan teknologi yang tepat dan modern di masyarakat nasional dan internasional."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Visi TI",
+         "patterns": ["Apa Visi dari program studi Teknik Industri?"],
+         "responses": ["Visi dari Program Studi Teknik Industri menjadi program studi yang unggul dan bermartabat dalam hal pendidikan, penelitian, dan pengabdian masyarakat terkait bidang keilmuan teknik industri di tingkat internasional, berdasarkan moral agama."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Misi TI",
+         "patterns": ["Apa Misi dari program studi Teknik Industri?"],
+         "responses": ["Misi dari Program Studi Teknik Industri yaitu melaksanakan program pendidikan bidang Teknik Industri yang selaras dengan aspek keilmuan, perkembangan zaman, berlandaskan moral beragama serta berbangsa, melaksanakan penelitian baik dalam pengembangan metode dan aplikasi pada bidang advanced manufacturing, ergonomi, dan rekayasa sistem yang berorientasi pada aplikasi dan pengembangan keilmuan Teknik Industri secara luas, membantu memecahkan permasalahan yang terjadi di masyarakat dengan mengimplementasikan keilmuan Teknik Industri melalui program pengabdian kepada masyarakat dan membangun hubungan kerjasama dengan berbagai sektor di tingkat nasional dan internasional dalam melakukan pendidikan, penelitian dan pengabdian masyarakat terkait keilmuan Teknik Industri. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Visi TRKB",
+         "patterns": ["Apa Visi dari program studi Teknik Robotika dan Kecerdasan Buatan"],
+         "responses": ["Visi dari Program Studi Teknik Robotika dan Kecerdasan Buatan yaitu pada tahun 2035 menjadi program studi sarjana Teknik Robotika dan Kecerdasan Buatan yang inovatif, unggul, dan terkemuka tingkat nasional dan internasional, serta berperan dalam aktif dalam usaha mensejahterakan bangsa berdasar moral agama."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Misi TRKB",
+         "patterns": ["Apa Misi dari program studi Teknik Robotika dan Kecerdasan Buatan"],
+         "responses": ["Misi dari Program Studi Teknik Robotika dan Kecerdasan Buatan yaitu mempersiapkan lulusan yang mampu mengembangkan metode kecerdasan buatan pada sistem fisik-siber (cyber physical system) yang otonomi (autonomous) pada aplikasi industri secara luas, mengembangkan penelitian baik dalam pengembangan metode dan implementasi kecerdasan buatan pada sistem fisik-siber (cyber physical system) yang otonomi (autonomous) yang berorientasi pada aplikasi di dunia industri secara luas, membantu memecahkan permasalahan yang terjadi di masyarakat terutama lembaga pemerintah dan industri pada bidang Robotika dan Otomasi serta bidang Kecerdasan Buatan, membangun jejaring kerjasama dengan pemangku kepentingan baik pemerintah dan industri maupun institusi lain di tingkat nasional dan internasional dalam pendidikan, penelitian dan pengabdian masyarakat. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Visi TSD",
+         "patterns": ["Apa Visi dari program studi Teknologi Sains Data"],
+         "responses": ["Visi dari Program Studi Teknologi Sains Data yaitu tahun 2030 menjadi sebuah Program Studi S1 Teknologi Sains Data yang unggul di Indonesia dalam penerapan sains data pada bidang kesehatan, sosial dan komunikasi, industri, serta bisnis dan finansial untuk mendukung perkembangan masyarakat ilmiah yang cerdas/unggul dan berbudi pekerti luhur/bermoral karimah."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Misi TSD",
+         "patterns": ["Apa Misi dari program studi Teknologi Sains Data"],
+         "responses": ["Misi dari Program Studi Teknologi Sains Data yaitu enyelenggarakan pendidikan di bidang Teknologi Sains Data yang berstandar nasional dan internasional agar mahasiswa mampu untuk berpikir kritis, berwawasan global, dan mengembangkan keterampilan dalam menjawab tantangan global, menyelenggarakan penelitian dan pengembangan ilmu di bidang Teknologi Sains Data yang berstandar nasional dan internasional di bidang kesehatan, sosial dan komunikasi, industri, serta bisnis dan finansial, menyelenggarakan pengabdian kepada masyarakat yang menunjang penerapan dan pengembangan ilmu Teknologi Sains Data yang dapat mendukung perkembangan masyarakat dengan ilmiah, cerdas dan bermoral agama serta meningkatkan kesejahteraan masyarakat."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Pendaftaran",
+         "patterns": ["Bagaimana mendaftar untuk menjadi mahasiswa FTMM?", "Jalur apa saja untuk menjadi mahasiswa FTMM?"],
+         "responses": ["Untuk pendaftaran dapat melalui SNMPTN, SBMPTN dan Jalur Mandiri yang diadakan oleh pihak Universitas Airlangga"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Organisasi",
+         "patterns": ["Di FTMM ada organisasi apa saja?", "Apakah ada organisasi-organisasi di FTMM ?"],
+         "responses": ["Organisasi mahasiswa yang ada di FTMM yaitu BEM FTMM, BLM FTMM dan lima Hima Prodi."],
+         "context_set": ""
+        },
+
+
+        {"tag": "BEM FTMM",
+         "patterns": ["Bagaimana BEM FTMM terbentuk?", "Sejarah BEM FTMM?"],
+         "responses": ["Dalam sejarahnya, Fakultas Teknologi Maju dan Multidisiplin membentuk BEM Fakultas Teknologi Maju dan Multidisiplin terbentuk kepengurusan yang pertama pada tahun 2022 ini, dan menggelar pelantikan pengurus inti BEM bersamaan dengan pelantikan pengurus Badan Legislatif Mahasiswa di pertengahan Januari. Ketua BEM terpilih, yakni Aqil Naufal Rizqullah yang merupakan mahasiswa Rekayasa Nanoteknologi, mengusung nama kabinet periode pertama ini dengan nama “Kabinet Maju” yang memiliki visi untuk dapat menjadi wadah dan pusat pergerakan bagi seluruh mahasiswa FTMM dalam mengembangkan potensi terbaiknya, baik didalam ataupun luar negeri, serta membangun kerjasama kolaboratif dengan seluruh elemen FTMM, demi membawa FTMM yang mampu bergerak maju, bersinergi, dan bersaing secara sehat dalam banyak bidang."],
+         "context_set": ""
+        },
+
+
+        {"tag": "BLM FTMM",
+         "patterns": ["Apa itu BLM?", "Apa tugas dari BLM?"],
+         "responses": ["Badan Legislatif Mahasiswa (BLM) merupakan lembaga legislatif di tingkat mahasiswa. BLM mempunyai tiga fungsi, yaitu aspirasi, legislasi, dan pengawasan. Sebagai badan legislatif, keberadaan BLM sangat krusial guna menyeimbangkan fungsi legislatif dan fungsi eksekutif yang dilakukan oleh Badan Eksekutif Mahasiswa (BEM). BLM menyelenggarakan beberapa kegiatan penting seperti Kongres Mahasiswa (Kosma) serta Monitoring dan Evaluasi (Monev)."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Koordinator Prodi TSD",
+         "patterns": ["Siapa ketua koordinator program studi Teknologi Sains Data?"],
+         "responses": ["Ketua koordinator program studi Teknologi Sains Data adalah Dr. Dwi Rantini, S.Si. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Koordinator Prodi TE",
+         "patterns": ["Siapa ketua koordinator program studi Teknik Elektro"],
+         "responses": ["Ketua koordinator program studi Teknik Elektro adalah Lilik Jamilatul Awalin S.T., M.T., Ph.D "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Koordinator Prodi TRKB",
+         "patterns": ["Siapa ketua koordinator program studi Teknik Robotika dan Kecerdasan Buatan"],
+         "responses": ["Ketua koordinator program studi Teknik Robotika dan Kecerdasan Buatan adalah Purbandini, S.Si., M.Kom."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Koordinator Prodi TI",
+         "patterns": ["Siapa ketua koordinator program studi Teknik Industri?"],
+         "responses": ["Ketua koordinator program studi Teknik Industri adalah Chandrawati Putri Wulandari, S.T., M.T., MBA., Ph.D. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Koordinator Prodi RN",
+         "patterns": ["Siapa ketua koordinator program studi Rekayasa Nanoteknologi"],
+         "responses": ["Ketua koordinator program studi Rekayasa Nanoteknologi adalah Prof. Dr. Dra. Retno Sari, MSc., Apt "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Tenaga kependidikan",
+         "patterns": ["Ada berapa jenis tenaga kerpendidikan di FTMM?", "Kependidikan FTMM terdiri dari apa saja?"],
+         "responses": ["Tenaga kependidikan FTMM ada beberapa jenis yaitu Kepala Bagian Tata Usaha, Kepala Subbagian Sarana, Prasarana dan Kepala Subbagian SDM dan Keuangan dan Kepala Subbagian Akademik dan Kemahasiswaan"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Kelompok penelitian",
+         "patterns": ["Apakah ada kelompok penelitian di FTMM?"],
+         "responses": ["Kelompok penelitian yang dimiliki oleh FTMM yaitu Food and Environment Nanotechnology, Nanotechnology and Nanomedicine, Human Factor and System Engineering, Advanced Manufacturing and Computational Approach, Data-Driven Decision Support System, Robotics and Mechatronics, Digital Health, Computational Learning, Intelligent Systems, Renewable and Sustainable Energy Tecnology dan Intelligent Power and Control Engineering. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Visi F&E Nanotechnology",
+         "patterns": ["Apa Visi dari Food and Environment Nanotechnology?"],
+         "responses": ["Food and Environment Nanotechnology memiliki visi menjadi grup riset yang mampu menyelesaikan masalah bangsa dalam bidang food dan environment dan misi mengembangkan material absorban dari bahan alam untuk absorbsi dan dekomposisi bahan pewarna, mengembangkan material absorban dari bahan alam untuk absorbsi dan pemisahan logam berat, mengembangkan material absorban dari bahan sintetik untuk absorbsi dan dekomposisi bahan pewarna dan mengembangkan material absorban dari bahan sintetik untuk absorbsi dan pemisahan logam berat."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Hasil F&E Nanotechnology",
+         "patterns": ["Apa saja yang dihasilkan dari kelompok FoodEnviroment Nanotechnology?"],
+         "responses": ["Rekam jejak dari kelompok penelitian Food and Environment Nanotechnology pembuatan absorban dari bahan sintetik, seperti metal-organic framework (MOF), untuk absorbsi dan dekomposisi bahan pewarna, pembuatan absorban dari bahan sintetik, seperti metal-organic framework (MOF), untuk absorbsi dan pemisahan ion logam berat (Pb2+, Cd2+, Hg2+, dan lainnya), analisis dan karakterisasi absorban menggunakan instrument, seperti (single crystal dan powder) X-Ray Difraction, CHN analysis, SEM-EDS, thermal, UV-Vis dan Photoluminescence spectroscopy. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Publikasi F&E Nanotechnology",
+         "patterns": ["Publikasi apa saja yang dihasilkan dari kelompok FoodEnviroment Nanotechnology?"],
+         "responses": ["Publikasi yang telah diterbitkan oleh kelompok penelitian Food and Environment Nanotechnology Pembuatan absorban dari bahan sintetik, seperti metal-organic framework (MOF), untuk absorbsi dan dekomposisi bahan pewarna, Pembuatan absorban dari bahan sintetik, seperti metal-organic framework (MOF), untuk absorbsi dan pemisahan ion logam berat (Pb2+, Cd2+, Hg2+, dan lainnya) dan Analisis dan karakterisasi absorban menggunakan instrument, seperti (single crystal dan powder) X-Ray Difraction, CHN analysis, SEM-EDS, thermal, UV-Vis dan Photoluminescence spectroscopy. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Sumber Dana F&E Nanotechnology",
+         "patterns": ["Kelompok Food Enviroment Nanotechnology mendapatkan sumber dana dari mana?"],
+         "responses": ["Sumber dana penelitian untuk kelompok penelitian Food and Environment Tecnology diperoleh dari Hibah internal Riset Mandat Dosen Muda Universitas Airlangga, Hibah program penelitian kolaborasi Indonesia, Penelitian unggulan fakultas internal Universitas Airlangga, Fundamental, Research Grant Scheme, Ministry of Education, Malaysia, High Impact Research Grant, University of Malaya, Malaysia. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Visi Nanotechnology & Nanomedicine",
+         "patterns": ["Apa Visi dari Nanotechnology and Nanomedicine?"],
+         "responses": ["Nanotechnology and Nanomedicine memiliki visi memberikan inovasi (bio)nanosensor yang paling canggih dan misi yaitu mengembangkan proses preparasi sensor berbasis nanoteknologi dengan berbagai metode, mengembangkan nanokomposit dan nanopartikel sebagai sumber material untuk pembangkitan sensor, mengembangkan proses analisis selama pengujian material sensor dan mengembangkan aplikasi (bio)nanosensors di bidang kedokteran dan lingkungan. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Hasil Nanotechnology & Nanomedicine",
+         "patterns": ["Apa saja yang sudah dihasilkan oleh Nanotechnology and Nanomedicine?"],
+         "responses": ["Rekam jejak dari kelompok Nanotechnology and Nanomedicine adalah Pembangkit sensor menggunakan material modifikasi nanopartikel berlian boron-doped untuk sensor elektrokimia antibiotik (ciprofloxacin, levofloxacin, ofloxacin), Pembangkit sensor elektrokimia untuk pemanis menggunakan elektroda intan yang didoping boron, Uji in vitro dan in vivo, seperti uji antibakteri dan antikanker, Analisis dan karakterisasi nanomaterial menggunakan X-Ray, Diffraction, SEM dan TEM, Sensor nanomaterial dari film tipis seperti sinkrotron dan hamburan nuklir."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Sumber Dana Nanotechnology & Nanomedicine",
+         "patterns": ["Kelompok Nanotechnology and Nanomedicine mendapatkan sumber dana dari mana?"],
+         "responses": ["Pedanaan penelitian yang diberikan ke kelompok Nanotechnology and Nanomedicine diperoleh dari Hibah internal Riset Mandat Dosen Muda Universitas Airlangga, Hibah program penelitian kolaborasi Indonesia, Penelitian unggulan fakultas internal Universitas Airlangga, Grant penelitian DPRM Kemenristek/BRIN Universitas Airlangga, Grant-In-Aid for Japan Society for the Promotion of Science (JSPS) Research fellow "],
+         "context_set": ""
+        },
+
+
+        {"tag": "HFS Enginering",
+         "patterns": ["Apa itu kelompok penelitian Human Factor System Enginering?"],
+         "responses": ["Kelompok penelitian Human Factor and System Engineering adalah research group yang berfokus pada penelitian multidisiplin mengenai hal-hal yang berkaitan dengan manusia dan ergonomi atau tentang bagaimana merancang, mengatur, dan mengaplikasikan kombinasi metodologi antara ilmu rekayasa, sosial, manajemen, dan lainnya untuk menyelesaikan permasalahan nyata dari berbagai domain aplikasi. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Ruang lingkup HFS Enginering",
+         "patterns": ["Bagaimana ruang lingkup kelompok penelitian Human Factor System Enginering?"],
+         "responses": ["Ruang lingkup penelitian Human Factor and System Engineering yaitu Manajemen Logistik dan Rantai Pasok, Pemodelan Sistem, Optimisasi dan Simulasi dan Ergonomi dan Faktor Manusia. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Sumber Dana HFS Enginering",
+         "patterns": ["Kelompok Human Factor System Enginering mendapatkan dana dari mana?"],
+         "responses": ["Sumber dana penelitian untuk kelompok penelitian Human Factor and System Engineering diperoleh dari Hibah internal Penelitian Dosen Pemula Universitas Airlangga, Hibah internal Penelitian Unggulan Fakultas Universitas Airlangga, Hibah internal Pengabdian Masyarakat Universitas Airlangga. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "AMC Research",
+         "patterns": ["Apa itu Advanced Manufacturing and Computational Approach?"],
+         "responses": ["Advanced Manufacturing and Computational Approach secara aktif terlibat dalam penelitian yang berkaitan dengan sistem manufaktur terkini dan pekerjaan konsultasi di bidang proses manufaktur lanjutan dan pendekatan komputasi. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Ruang lingkup AMC Research",
+         "patterns": ["Bagaimana ruang lingkup Advanced Manufacturing and Computational Approach?"],
+         "responses": ["Ruang lingkup penelitian Advanced Manufacturing and Computational Approach yaitu Proses Manufaktur Lanjut, Pendekatan komputasi, sistem manufaktur."],
+         "context_set": ""
+        },
+
+        {"tag": "Sumber dana AMC Research",
+         "patterns": ["Kelompok Advanced Manufacturing and Computational Approach mendapatkan dana darimana ? "],
+         "responses": ["Sumber dana yang diberikan ke kelompok penelitian Advanced Manufacturing and Computational Approach diperoleh dari Hibah internal Mandat Mitra Luar Negeri Universitas Airlangga, Hibah internal Penelitian Unggulan Fakultas Universitas Airlangga, Hibah internal, Pengabdian Masyarakat Universitas Airlangga, Pendanaan RISTEK-BRIN, Indonesia Toray, Science Foundation dan Bantuan dana dari PT. Global Meditek Utama sebagai mitra pengmas"],
+         "context_set": ""
+        },
+
+        {"tag": "DDSS Research",
+         "patterns": ["Apa itu Data-Driven Decision support System?"],
+         "responses": ["Data-Driven Decision Support System merupakan grup riset yang bertujuan untuk menciptakan solusi dari permasalahan dunia dengan berbasiskan data. Grup riset Data-Driven Decision Support System dibentuk pada tahun 2020 sebagai wadah untuk kolaborasi yang bersifat interdisipliner bagi seorang policy experts, data scientist dan interactive programmers. Grup riset ini fokus pada penyelesaian permasalahan terkait pengambilan keputusan di bidang kesehatan, sosial komunikasi, bisnis, pendidikan, dan lingkungan. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Topik DDSS Research",
+         "patterns": ["Kelompok Data-Driven Decision support system mengajukan topik apa?"],
+         "responses": ["Topik penelitian pada kelompok penelitian Data-Driven Decision Support System yaitu Integrated Media & Public Opinion Intelligent System, Survival Analysis & Health Detection, Weather & Climate Change Analytics dan Learning Analytics & Technologies "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Robotics & Mechatronics",
+         "patterns": ["Apa itu kelompok Robotics and Mechatronics?"],
+         "responses": ["Robotics and Mechatronics merupakan kelompok riset multidisiplin yang memiliki basis ilmu teknik yang menggabungkan Teknik Mesin, Teknik Elektro, Ilmu Komputer, dan Teknik Robotika. Dengan kolaborasi antara cabang multidisiplin teknik tersebut, kami mengembangkan aplikasi perangkat yang luas, sistem pintar, robotika, kendaraan pintar, dan prototipe lain yang memiliki dasar disiplin mekatronika yang kuat. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Bidang Robotics & Mechatronics",
+         "patterns": ["Kelompok Robotics and Mechatronics ada di bidang apa?"],
+         "responses": ["Minat bidang kelompok penelitian Robotics and Mechatronics yaitu Pemodelan, identifikasi, dan pengendalian sistem robotik; Robotika biomedis, rehabilitasi, dan bedah; Eksoskeleton, prostetik, dan organ buatan; Desain & mekanisme baru dari Penggerak robotika; Fusi data multi-sensor dan SLAM; Layanan robotika, robotisasi industri, robotika ruang angkasa; Sensorisasi, navigasi robot, robotika komunikasi; Robotika kawanan (terkoneksi), sistem robotik bergerak dan terbang. "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Sumber Dana Robotics & Mechatronics",
+         "patterns": ["Kelompok dari Robotics and Mechatronics mendapatkan dana dari mana?"],
+         "responses": ["Pendanaan penelitian yang diberikan ke kelompok penelitian Robotics and Mechatronics didapat dari Penelitian Dosen Pemula Universitas Airlangga seperti Desain dan Implementasi Low-Cost Automatic Optical Inspection (AOI) Untuk Deteksi Kecacatan Pada Printed Circuit Board (PCB), AIR-Drone (Airlangga Autonomous Air Quality Integrated Multi Sensor –Drone), Integrasi Sistem Multi-gas Sensor pada Quadcopter untuk Mendeteksi Sumber Kebocoran Gas dan Pemetaan Spasial-Temporal Kualitas Udara pada Suatu Wilayah dan Robot BELANTARA (pembersih lantai dan udara) Airlangga sebagai pencegahan penyebaran virus pada area kerja dalam gedung dan ruang isolasi. Dana yang didapatkan dari penelitian kolaborasi dengan eksternal seperti PT.Adhikara – Flow Control System for Amina Distribution dan Adicita Winaya Guna – Xline2020,Modul Robot Edukasi dan Kompetisi Robot Pembelajaran teknologi berjenjang untuk level junior SD, SMP dan SMA."],
+         "context_set": ""
+        },
+
+
+        {"tag": "DH,CL,IS Research",
+         "patterns": ["Apa itu Digital Health, Computational Learning, Intelligent System?"],
+         "responses": ["Digital Health, Computational Learning, Intelligent Systems merupakan penelitian teknologi multidisiplin, yang bergerak dalam bidang kesehatan (eHealth), ilmu hayati, teknik dan ilmu komputer. Fokus utama kelompok riset DHCIS adalah mempelajari  bagaimana merancang, mengelola, dan menerapkan kombinasi metodologi sistem cerdas dan sistem komputasi untuk memecahkan masalah pada bidang kesehatan, industri, manufaktur, atau bidang lain."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Bidang DH,CL,IS Research",
+         "patterns": ["Kelompok Digital Health, Compulational Learning, Intelligent System mencakup bidang apa?"],
+         "responses": ["Bidang cakupan pada kelompok penelitian Digital Health, Computational Learning, Intelligent Systems antara lain Teknologi Kesehatan Digital dan Computational Intelligence dan Intelligent Systems. Pada Teknologi Kesehatan Digital antara lain Electronic Health (learning & service) Systems, Telehealth Apps, devices & systems, Wearable technology, Augmented & Virtual Reality, Health Web &/ Apps based platform. Pada Computational Intelligence dan Intelligent Systems seperti Kecerdasan Buatan, Pembelajaran Mesin, Deep Learning, Proses Mining, Sistem Temu Kembali Informasi, Rekayasa Pengetahuan, Forecasting–Planning–Scheduling, Analisis Data Statistik, Clustering, Sistem Terdistribusi, Sistem Tertanam, Pengenalan Pola."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Sumber Dana DH,CL,IS Research",
+         "patterns": ["Sumber dana dari kelompok Digital Health. Compulational Learning. Intelligent didapatkan dari mana?"],
+         "responses": ["Pendanaan penelitian yang diberikan ke kelompok penelitian Digital Health, Computational Learning, Intelligent Systems didapatkan dari Konsorsium Kemendikti Ristek-BRIN, Penelitian Dosen Pemula Universitas Airlangga dan Hibah riset mandate khusus Covid-19 tahun 2020"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Publikasi DH,CL,IS Research",
+         "patterns": ["Publikasi apa saja yang dihasilkan dari kelompok Compulational Learning, Intelligent System?"],
+         "responses": ["Beberapa publikasi yang pernah diterbitkan oleh kelompok penelitian  Digital Health, Computational Learning, Intelligent Systems yaitu The Application of Instrumentation System on a Contactless Robotic Triage Assistant to Detect Early Transmission on a COVID-19 suspect, Transforming Timestamp of a CSV Database to an Event Log, Memodelkan Penyebaran dan Optimasi SOP Pencegahan COVID-19 dengan Multimethod Simulation Modeling dan Improved Fuzzy Miner Algorithm for Business Process Discovery"],
+         "context_set": ""
+        },
+
+
+        {"tag": "R & SE Technology",
+         "patterns": ["Kelompok riset renewable and Sustainable Energy Tecnology bergerak di bidang apa? "],
+         "responses": ["Renewable and Sustainable Energy Tecnology merupakan salah satu grup riset di bawah Fakultas Teknologi Maju dan Multidisiplin, Universitas Airlangga. Grup riset yang terdiri dari para dosen Teknik Elektro ini mempunyai fokus riset di bidang pengembangan teknologi pemanfaatan sumber energi terbarukan. Pengembangan teknologi yang dilakukan adalah dari sisi perangkat instrumentasi dan kendali, serta dari sisi pemodelan sistem daya pembangkit listrik energi terbarukan. Grup riset ini melibatkan beberapa mahasiswa yang aktif di bidang elektrikal dan elektronika untuk mengerjakan riset dan pengembangan. Saat ini, pengembangan di bidang energi terbarukan adalah memanfaatkan sebuah Solar Home System 1 kWp yang di pasang di atap Gedung Nanizar Zaman Joenoes, Kampus C, Universitas Airlangga. Beberapa penelitian terkait fasilitas ini yang sedang dikerjakan adalah pengembangan perangkat stasiun cuaca, sistem pemantauan pembangkitan energi surya, perancangan perangkat solar charge controller, analisa stabilitas sistem tenaga listrik, dan pemodelan karakteristik sistem pembangkit."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Bidang R & SE Technology",
+         "patterns": ["Kelompok riset renewable and Sustainable Energy Tecnology bergerak di bidang apa? "],
+         "responses": ["Bidang minat pada kelompok penelitian Renewable and Sustainable Energy Technology adalah Rekayasa energi surya seperti Konverter DC/DC (solar charge controller), Maximum power point tracking, Smart grid/Off grid Inverters. Minat Sistem Pembangkit Listrik Tenaga Surya seperti Sistem kendali generator dan turbin angin dan Sistem pembangkit listrik tenaga bayu. Minat Wind energy engineering dan pemantauan dan manajemen sistem pembangkit listrik energi terbarukan seperti Sistem monitor dan kendali berbasis IoT, Pemantauan dan prediksi cuaca, Sistem manajemen yang terintegrasi, Pemodelan karakter sistem berbasis kecerdasan buatan."],
+         "context_set": ""
+        },
+
+
+        {"tag": "IE & C Engineering",
+         "patterns": ["Apa itu Intelligent Power and Control Engineering ? "],
+         "responses": ["Intelligent Power and Control Engineering adalah salah satu riset group yang ada dibawah naungan Fakultas Teknologi Maju dan Multidisiplin. Penelitian kami berfokus pada penyelesain permasalahan yang ada pada bidang rekayasa ketenagalistrikan dan rekayasa kontrol. Ini termasuk Analisa system tenaga, mesin-mesin listrik, tegangan tinggi, kecerdasan buatan pada sistem tenaga, pemodelan dinamik, metode control lanjut dan metode kontrol cerdas."],
+         "context_set": ""
+        },
+
+
+        {"tag": "Bidang IE & C Engineering",
+         "patterns": ["Kelompok Intelligent Power and Control Engineering  bergerak dibidang apa?"],
+         "responses": ["Bidang minat pada kelompok penelitian Intelligent Power and Control Engineering Rekaya Ketenagalistrikan seperti Analisa Sistem Tenaga, Konversi Energi, Elektronika Daya, Tegangan Tinggi, Mesin Listrik, Integrasi Energi Terbarukan, Kecerdasan  Buatan pada Ketenagalistrikan. Pada minta Rekayasa Kontrol seperti Pemodelan Dinamik, Metode Kontrol Lanjut, Metode Kontrol Cerdas, Metode Kontrol pada Energi Terbarukan dan Instrumentasi"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Fasilitas IE & C Engineering",
+         "patterns": ["Apa saja fasilitas yang ada pada kelompok Intelligent power and Control Engineering?"],
+         "responses": ["Fasilitas penelitian pada kelompok penelitian Intelligent Power and Control Engineering seperti Mechanical Solar Tracker, Hybrid Vehicles Simulator, 11 kW Rooftop PV Plant, Airfeel Weather Station, Blade Pitch Angle Wind Turbine Simulator, MATLAB/SIMULINK "],
+         "context_set": ""
+        },
+
+
+        {"tag": "Sumber Dana IE & C Engineering",
+         "patterns": ["Kelompok Intelligent Power and Control Engineering mendapatkan sumber dana darimana?"],
+         "responses": ["Dana penelitian yang diberikan ke kelompok penelitian Intelligent Power and Control Engineering diperoleh dari Hibah internal Mandat Mitra Luar Negeri Universitas Airlangga, Hibah internal PDP Universitas Airlangga, Hibah internal Pengabdian Masyarakat Universitas Airlangga, Program Penelitian Kerjasama Indonesia, Hibah research SATU dan Hibah Kedaireka"],
+         "context_set": ""
+        }
+]
+}
