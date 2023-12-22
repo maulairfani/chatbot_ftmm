@@ -1,7 +1,5 @@
 import streamlit as st
 from utils import *
-import openai
-import os
 
 st.title("💬 FTMM-QA") 
 if "messages" not in st.session_state:
@@ -25,9 +23,7 @@ if prompt := st.chat_input():
         chat_model = ChatOpenAI(api_key=st.secrets["openai_key"], streaming=True, callbacks=[stream_handler])
         chain = prompt_template | chat_model
         response = chain.invoke({"context": contexts, "question":prompt, "chat_history": memory.buffer_as_messages})
-        # st.write(response)
 
     st.session_state.messages.append({"role": "assistant", "content": response.content})
     memory.save_context({"input": template.format(context=contexts, question=prompt)}, 
                         {"output": response.content})
-    # st.chat_message("assistant").write(response.content)
