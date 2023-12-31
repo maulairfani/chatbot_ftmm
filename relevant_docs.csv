@@ -1,0 +1,62 @@
+id,tag,query,relevant_docs,title_1,title_2
+0,Pengenalan FTMM,FTMM adalah,"[92, 75]",Sejarah FTMM.txt,Prestasi Mahasiswa.txt
+1,Lokasi FTMM,Halo FTMM ada dimana?,"[92, 32]",Sejarah FTMM.txt,FTMM Overview.txt
+2,Informasi Kontak,Apakah FTMM mempunyai akun media sosial?,[81],QnA.txt,
+3,Sejarah FTMM,Berapa jumlah mahasiswa FTMM?,[92],Sejarah FTMM.txt,
+4,Prodi FTMM,Apakah ada jurusan yang hanya ada satu di Indonesia?,"[93, 32]",Selayang Pandang FTMM.txt,FTMM Overview.txt
+5,Kepimpinan FTMM,Siapa pimpinan FTMM saat ini?,"[73, 74]",Pimpinan FTMM.txt,ppu-pemira-gelar-pengambilan-no-urut-arsalan-no-1-devita-no-2.txt
+6,Kontribusi FTMM,Karya apa saja yang sudah dihasilkan FTMM?,"[75, 48]",Prestasi Mahasiswa.txt,Karya FTMM.txt
+7,Gelar Sarjana FTMM,Lulusan FTMM mendapatkan gelar apa?,"[104, 106]",teknik-industri-program-studi.txt,Teknologi Sains Data.txt
+8,Identitas Bendera FTMM,Bendera FTMM berwarna apa?,"[42, 63]",identitas-ftmm.txt,Panduan-GrafisSimpleVer.pdf
+9,Identitas Logo FTMM,Logo FTMM berwarna apa?,"[63, 42]",Panduan-GrafisSimpleVer.pdf,identitas-ftmm.txt
+10,Visi FTMM,Apa visi dari FTMM?,"[85, 110]",Rencana Strategis Fakultas Teknologi Maju dan Multidisiplin.txt,Visi Misi.txt
+11,Misi FTMM,Apa Misi dari FTMM?,"[85, 110]",Rencana Strategis Fakultas Teknologi Maju dan Multidisiplin.txt,Visi Misi.txt
+12,Visi RN,Apa Visi dari program studi Rekayasa Nanoteknologi?,"[84, 83]",rekayasa-nanoteknologi-program-studi.txt,Rekayasa Nanoteknologi.txt
+13,Misi RN,Apa Misi dari program studi Rekayasa Nanoteknologi?,"[83, 84]",Rekayasa Nanoteknologi.txt,rekayasa-nanoteknologi-program-studi.txt
+14,Visi TE,Apa Visi dari program studi Teknik Elektro?,[103],teknik-elektro-program-studi.txt,
+15,Misi TE,Apa Misi dari program studi Teknik Elektro?,"[103, 86]",teknik-elektro-program-studi.txt,Rencana Strategis.txt
+16,Visi TI,Apa Visi dari program studi Teknik Industri?,"[104, 98]",teknik-industri-program-studi.txt,staf-dosen-prodi-teknik-industri.txt
+17,Misi TI,Apa Misi dari program studi Teknik Industri?,"[104, 98]",teknik-industri-program-studi.txt,staf-dosen-prodi-teknik-industri.txt
+18,Visi TRKB,Apa Visi dari program studi Teknik Robotika dan Kecerdasan Buatan,"[99, 91]",staf-dosen-prodi-teknik-robotika-dan-kecerdasan-buatan.txt,ROBOTICS AND MECHATRONICS.txt
+19,Misi TRKB,Apa Misi dari program studi Teknik Robotika dan Kecerdasan Buatan,"[99, 91]",staf-dosen-prodi-teknik-robotika-dan-kecerdasan-buatan.txt,ROBOTICS AND MECHATRONICS.txt
+20,Visi TSD,Apa Visi dari program studi Teknologi Sains Data,"[106, 100]",Teknologi Sains Data.txt,staf-dosen-prodi-teknologi-sains-data.txt
+21,Misi TSD,Apa Misi dari program studi Teknologi Sains Data,"[106, 100]",Teknologi Sains Data.txt,staf-dosen-prodi-teknologi-sains-data.txt
+22,Pendaftaran,Bagaimana mendaftar untuk menjadi mahasiswa FTMM?,"[66, 3]",pendaftaran-mahasiswa.txt,Alur Pendaftaran Online Mahasiswa Baru.txt
+23,Organisasi,Di FTMM ada organisasi apa saja?,"[2, 92]",Aktivitas Mahasiswa FTMM.txt,Sejarah FTMM.txt
+24,BEM FTMM,Bagaimana BEM FTMM terbentuk?,"[12, 92]",BEM FTMM.txt,Sejarah FTMM.txt
+25,BLM FTMM,Apa itu BLM?,[16],BLM FTMM.txt,
+26,Koordinator Prodi TSD,Siapa ketua koordinator program studi Teknologi Sains Data?,"[100, 106]",staf-dosen-prodi-teknologi-sains-data.txt,Teknologi Sains Data.txt
+27,Koordinator Prodi TE,Siapa ketua koordinator program studi Teknik Elektro,"[103, 98]",teknik-elektro-program-studi.txt,staf-dosen-prodi-teknik-industri.txt
+28,Koordinator Prodi TRKB,Siapa ketua koordinator program studi Teknik Robotika dan Kecerdasan Buatan,"[99, 98]",staf-dosen-prodi-teknik-robotika-dan-kecerdasan-buatan.txt,staf-dosen-prodi-teknik-industri.txt
+29,Koordinator Prodi TI,Siapa ketua koordinator program studi Teknik Industri?,[98],staf-dosen-prodi-teknik-industri.txt,
+30,Koordinator Prodi RN,Siapa ketua koordinator program studi Rekayasa Nanoteknologi,"[97, 84]",staf-dosen-prodi-rekayasa-nanoteknologi.txt,rekayasa-nanoteknologi-program-studi.txt
+31,Tenaga kependidikan,Ada berapa jenis tenaga kerpendidikan di FTMM?,[107],tenaga-kependidikan.txt,
+32,Kelompok penelitian,Apakah ada kelompok penelitian di FTMM?,[89],research-groups.txt,
+33,Visi F&E Nanotechnology,Apa Visi dari Food and Environment Nanotechnology?,"[31, 67]",FOOD AND ENVIRONMENT NANOTECHNOLOGY.txt,Penerapan Nanoteknologi Dalam Pengembangan Energi Biomassa.txt
+34,Hasil F&E Nanotechnology,Apa saja yang dihasilkan dari kelompok FoodEnviroment Nanotechnology?,"[31, 67]",FOOD AND ENVIRONMENT NANOTECHNOLOGY.txt,Penerapan Nanoteknologi Dalam Pengembangan Energi Biomassa.txt
+35,Publikasi F&E Nanotechnology,Publikasi apa saja yang dihasilkan dari kelompok FoodEnviroment Nanotechnology?,"[31, 67]",FOOD AND ENVIRONMENT NANOTECHNOLOGY.txt,Penerapan Nanoteknologi Dalam Pengembangan Energi Biomassa.txt
+36,Sumber Dana F&E Nanotechnology,Kelompok Food Enviroment Nanotechnology mendapatkan sumber dana dari mana?,"[31, 97]",FOOD AND ENVIRONMENT NANOTECHNOLOGY.txt,staf-dosen-prodi-rekayasa-nanoteknologi.txt
+37,Visi Nanotechnology & Nanomedicine,Apa Visi dari Nanotechnology and Nanomedicine?,"[58, 83]",NANOTECHNOLOGY AND NANOMEDICINE.txt,Rekayasa Nanoteknologi.txt
+38,Hasil Nanotechnology & Nanomedicine,Apa saja yang sudah dihasilkan oleh Nanotechnology and Nanomedicine?,"[58, 67]",NANOTECHNOLOGY AND NANOMEDICINE.txt,Penerapan Nanoteknologi Dalam Pengembangan Energi Biomassa.txt
+39,Sumber Dana Nanotechnology & Nanomedicine,Kelompok Nanotechnology and Nanomedicine mendapatkan sumber dana dari mana?,[58],NANOTECHNOLOGY AND NANOMEDICINE.txt,
+40,HFS Enginering,Apa itu kelompok penelitian Human Factor System Enginering?,"[40, 45]",HUMAN FACTOR AND SYSTEM ENGINEERING.txt,INTELLIGENT POWER AND CONTROL ENGINEERING.txt
+41,Ruang lingkup HFS Enginering,Bagaimana ruang lingkup kelompok penelitian Human Factor System Enginering?,"[40, 29]",HUMAN FACTOR AND SYSTEM ENGINEERING.txt,fasilitas-penelitian.txt
+42,Sumber Dana HFS Enginering,Kelompok Human Factor System Enginering mendapatkan dana dari mana?,"[40, 13]",HUMAN FACTOR AND SYSTEM ENGINEERING.txt,Bentuk Semangat Berwirausaha Melalui Dana Usaha.txt
+43,AMC Research,Apa itu Advanced Manufacturing and Computational Approach?,[0],ADVANCED MANUFACTURING AND COMPUTATIONAL APPROACH.txt,
+44,Ruang lingkup AMC Research,Bagaimana ruang lingkup Advanced Manufacturing and Computational Approach?,"[0, 29]",ADVANCED MANUFACTURING AND COMPUTATIONAL APPROACH.txt,fasilitas-penelitian.txt
+45,Sumber dana AMC Research,Kelompok Advanced Manufacturing and Computational Approach mendapatkan dana darimana ? ,"[0, 29]",ADVANCED MANUFACTURING AND COMPUTATIONAL APPROACH.txt,fasilitas-penelitian.txt
+46,DDSS Research,Apa itu Data-Driven Decision support System?,"[20, 106]",DATA-DRIVEN DECISION SUPPORT SYSTEM.txt,Teknologi Sains Data.txt
+47,Topik DDSS Research,Kelompok Data-Driven Decision support system mengajukan topik apa?,[20],DATA-DRIVEN DECISION SUPPORT SYSTEM.txt,
+48,Robotics & Mechatronics,Apa itu kelompok Robotics and Mechatronics?,"[91, 51]",ROBOTICS AND MECHATRONICS.txt,komunitas.txt
+49,Bidang Robotics & Mechatronics,Kelompok Robotics and Mechatronics ada di bidang apa?,"[91, 29]",ROBOTICS AND MECHATRONICS.txt,fasilitas-penelitian.txt
+50,Sumber Dana Robotics & Mechatronics,Kelompok dari Robotics and Mechatronics mendapatkan dana dari mana?,"[91, 51]",ROBOTICS AND MECHATRONICS.txt,komunitas.txt
+51,"DH,CL,IS Research","Apa itu Digital Health, Computational Learning, Intelligent System?",[23],"DIGITAL HEALTH, COMPUTATIONAL LEARNING, INTELLIGENT SYSTEMS.txt",
+52,"Bidang DH,CL,IS Research","Kelompok Digital Health, Compulational Learning, Intelligent System mencakup bidang apa?",[23],"DIGITAL HEALTH, COMPUTATIONAL LEARNING, INTELLIGENT SYSTEMS.txt",
+53,"Sumber Dana DH,CL,IS Research",Sumber dana dari kelompok Digital Health. Compulational Learning. Intelligent didapatkan dari mana?,[23],"DIGITAL HEALTH, COMPUTATIONAL LEARNING, INTELLIGENT SYSTEMS.txt",
+54,"Publikasi DH,CL,IS Research","Publikasi apa saja yang dihasilkan dari kelompok Compulational Learning, Intelligent System?",[23],"DIGITAL HEALTH, COMPUTATIONAL LEARNING, INTELLIGENT SYSTEMS.txt",
+55,R & SE Technology,Kelompok riset renewable and Sustainable Energy Tecnology bergerak di bidang apa? ,"[87, 67]",RENEWABLE AND SUSTAINABLE ENERGY TECHNOLOGY.txt,Penerapan Nanoteknologi Dalam Pengembangan Energi Biomassa.txt
+56,Bidang R & SE Technology,Kelompok riset renewable and Sustainable Energy Tecnology bergerak di bidang apa? ,"[87, 67]",RENEWABLE AND SUSTAINABLE ENERGY TECHNOLOGY.txt,Penerapan Nanoteknologi Dalam Pengembangan Energi Biomassa.txt
+57,IE & C Engineering,Apa itu Intelligent Power and Control Engineering ? ,[45],INTELLIGENT POWER AND CONTROL ENGINEERING.txt,
+58,Bidang IE & C Engineering,Kelompok Intelligent Power and Control Engineering  bergerak dibidang apa?,"[45, 91]",INTELLIGENT POWER AND CONTROL ENGINEERING.txt,ROBOTICS AND MECHATRONICS.txt
+59,Fasilitas IE & C Engineering,Apa saja fasilitas yang ada pada kelompok Intelligent power and Control Engineering?,"[45, 30]",INTELLIGENT POWER AND CONTROL ENGINEERING.txt,fasilitas-penunjang-ftmm.txt
+60,Sumber Dana IE & C Engineering,Kelompok Intelligent Power and Control Engineering mendapatkan sumber dana darimana?,[45],INTELLIGENT POWER AND CONTROL ENGINEERING.txt,
